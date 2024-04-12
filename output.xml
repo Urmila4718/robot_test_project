@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.0 on win32)" generated="2024-04-12T13:33:30.650277" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Suite" source="C:\Users\Urmila.Bhartal\robot_test_project\test_suite.robot">
+<test id="s1-t1" name="Open google.com" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-12T13:33:31.571815" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-12T13:33:31.571815" elapsed="3.692664"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-04-12T13:33:35.264479" level="INFO">Opening url 'https://google.com'</msg>
+<arg>url=https://google.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-04-12T13:33:35.264479" elapsed="1.807185"/>
+</kw>
+<doc>Test case to open Open google.com</doc>
+<status status="PASS" start="2024-04-12T13:33:31.570162" elapsed="5.501502"/>
+</test>
+<status status="PASS" start="2024-04-12T13:33:30.652613" elapsed="6.422312"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Suite">Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
