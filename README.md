@@ -37,3 +37,18 @@ Here's an example of a valid request:
  }
  ]
 }
+
+data = {
+    "tests": [
+        {
+            "title": "Open google.com",
+            "steps": [
+                "Open Browser browser='chrome'",
+                "Go To url='https://google.com'"
+            ]
+        }
+    ]
+}
+
+response = requests.post(url, json=data)
+print(response.json())

@@ -1,3 +1,8 @@
+# This is a comment explaining the purpose of the Django package
 Django==4.2.11
+
+# This is a comment explaining the purpose of the robotframework package
 robotframework==7.0
+
+# This is a comment explaining the purpose of the robotframework-seleniumlibrary package
 robotframework-seleniumlibrary==6.2.0
