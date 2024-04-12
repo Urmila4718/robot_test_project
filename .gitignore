@@ -1,0 +1,11 @@
+# .gitignore
+
+# Django
+__pycache__/
+db.sqlite3
+
+# Environments
+env/
+
+# Compiled Python files
+*.pyc
