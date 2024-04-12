@@ -25,20 +25,6 @@ Here's an example of a valid request:
 
 ```json
 
-
-{
- "tests":[
- {
- "title":"Open google.com",
- "steps":[
- "Open Browser browser='chrome'",
- "Go To url='https://google.com'"
- ]
- }
- ]
-}
-
-data = {
     "tests": [
         {
             "title": "Open google.com",
@@ -49,6 +35,3 @@ data = {
         }
     ]
 }
-
-response = requests.post(url, json=data)
-print(response.json())
