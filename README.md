@@ -24,7 +24,7 @@ To use this application, send a POST request to the `/execute_test` endpoint wit
 Here's an example of a valid request:
 
 ```json
-
+{
     "tests": [
         {
             "title": "Open google.com",
